@@ -32,14 +32,15 @@ $(function () {
 
     // TODO 2 - Create Platforms
 createPlatform(200, 400, 100, 20, "green");
-createPlatform(500, 200, 100, 20, "green");
+createPlatform(100, 200, 100, 20, "green");
 createPlatform(500, 500, 100, 20,"green");
 createPlatform(800, 300, 100, 20, "green");
 createPlatform(1000, 100, 100, 20,"green");
 createPlatform(1100, 500, 100, 20,"green");
 createPlatform(1300, 200,100, 20, "green");
 createPlatform(100, 700, 100, 20, "green");
- 
+createPlatform(300, 600, 100, 20, "green");
+createPlatform(700, 400, 100, 20, "green");
 
 
 
@@ -54,10 +55,10 @@ createCollectable("kennedi", 230, 365)
 
 
 // TODO 4 - Create Cannons
-createCannon("left", 340, 700)
-createCannon("top", 760, 700)
-createCannon("bottom", 640, 900)
-createCannon("right",460,)
+// createCannon("left", 340, 700)
+// createCannon("top", 760, 700)
+// createCannon("bottom", 640, 900)
+// createCannon("right",460,)
 
     
     
