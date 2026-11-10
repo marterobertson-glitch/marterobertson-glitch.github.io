@@ -18,7 +18,7 @@ $(function () {
 
     // Create walls - do not delete or modify this code
     createPlatform(-50, -50, canvas.width + 100, 50); // top wall
-    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "rgb(36, 133, 46)"); // bottom wall
+    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "rgb(248, 166, 3)"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
 
@@ -31,16 +31,16 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-createPlatform(200, 400, 100, 20, "green");
-createPlatform(100, 200, 100, 20, "green");
-createPlatform(500, 500, 100, 20,"green");
-createPlatform(800, 300, 100, 20, "green");
-createPlatform(1000, 100, 100, 20,"green");
-createPlatform(1100, 500, 100, 20,"green");
-createPlatform(1300, 200,100, 20, "green");
-createPlatform(100, 700, 100, 20, "green");
-createPlatform(300, 600, 100, 20, "green");
-createPlatform(700, 400, 100, 20, "green");
+createPlatform(200, 400, 100, 20, "red");
+createPlatform(100, 200, 100, 20, "red");
+createPlatform(500, 500, 100, 20,"red");
+createPlatform(800, 300, 100, 20, "red");
+createPlatform(1000, 200, 100, 20,"red");
+createPlatform(1100, 230, 100, 20,"red");
+createPlatform(1300, 200,100, 20, "red");
+createPlatform(100, 700, 100, 20, "red");
+createPlatform(300, 600, 100, 20, "red");
+createPlatform(700, 400, 100, 20, "red");
 
 
 
@@ -48,17 +48,15 @@ createPlatform(700, 400, 100, 20, "green");
 createCollectable("kennedi",1335, 165)
 createCollectable("kennedi", 830, 265)
 createCollectable("kennedi", 230, 365)
-    
+createCollectable("kennedi", 500, 400)
    
 
 
 
-
 // TODO 4 - Create Cannons
-// createCannon("left", 340, 700)
-// createCannon("top", 760, 700)
-// createCannon("bottom", 640, 900)
-// createCannon("right",460,)
+createCannon("left", 100, 1000)
+createCannon("top", 490, 1000)
+createCannon("bottom",600,1000)
 
     
     
